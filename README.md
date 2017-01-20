@@ -16,3 +16,4 @@ Différents appareils mis en marche
  -ampoules
  -ventilateur
  -volet
+
