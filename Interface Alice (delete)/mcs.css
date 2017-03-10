@@ -1,5 +1,5 @@
 body {
-	background-image: url("IMG_358039.jpg");
+	background-image: url("chaise.jpg");
 }
 h1, a {
 	color: #F0FFFF;
@@ -25,7 +25,7 @@ p {
     font-size: 16px;
 	border-radius: 4px;
 	text-align: center;
-	margin-left: 46%;
+	margin-left: 0%;
 	cursor:pointer;
 	transition: all 0.5s;
 	display:inline-block;
@@ -42,14 +42,14 @@ p {
     font-size: 16px;
 	border-radius: 4px;
 	text-align: center;
-	margin-left: 46%;
+	margin-left: 0%;
 	cursor:pointer;
 	transition: all 0.5s;
 	display:inline-block;
 	width:120px;
 }
 .btn2{
-    background-color: #4CAF50; /* Green */
+    background-color: #4CAF50;
     border: none;
     color: white;
     padding: 32px 16px;
@@ -59,13 +59,30 @@ p {
     font-size: 16px;
 	border-radius: 4px;
 	text-align: center;
-	margin-left: 46%;
+	margin-left: 0%;
 	cursor:pointer;
 	transition: all 0.5s;
 	display:inline-block;
 	width:120px;
 }
-	.button span {
+.btn3{
+    background-color: #F0FFFF;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	border-radius: 1px;
+	margin-left: 41.5%;
+	cursor:pointer;
+	transition: all 0.5s;
+	display:inline-block;
+	width:220px;
+}
+
+.button span {
   cursor: pointer;
   display: inline-block;
   position: relative;
