@@ -1,5 +1,5 @@
 body {
-	background-image: url("chaise.jpg");
+	background-image: url("chaisechaisechaise.jpg");
 }
 h1, a {
 	color: #F0FFFF;
@@ -15,7 +15,7 @@ p {
 	font-size: 20px; 
 }
 .btn0 {
-    background-color: #4CAF50; /* Green */
+    background-color: #B22222; /* Green */
     border: none;
     color: white;
     padding: 32px 16px;
@@ -32,7 +32,7 @@ p {
 	width:120px;
 }
 .btn1{
-    background-color: #4CAF50; /* Green */
+    background-color: #B22222; /* Green */
     border: none;
     color: white;
     padding: 32px 16px;
