@@ -8,10 +8,25 @@
 		<h1>Maison connectée v.1<br>Projet ISN</h1>
 		<p>Ici vous pouvez controler directement vos différents volets:</p>
 		<img src="volets logo.png" alt="lamp" style="width:204px;height:228px;">
-		<p>
-		<button type="button" class="btn0 button"><span>Allumer</button>
-		</p> <p>
-		<button type="button" class="btn0 button"><span>Etteindre</button> </p>
+	<h2>
+		<meta name="viewport" content="width=device-width" />
+				<form method="get" action="index.php">
+						<input type="submit" value="on" name="Allumer" class="btn0 button">
+						<input type="submit" value="Off" name="Eteindre" class="btn0 button">
+				</form>
+				<?php
+				$setmode3 = shell_exec("/usr/local/bin/gpio -g mode 3 out");
+				if(isset($_GET['on'])){
+						$gpio_on = shell_exec("/usr/local/bin/gpio -g write 17 1");
+						echo "Lumiere allumee";
+				}
+				else if(isset($_GET['off'])){
+						$gpio_off = shell_exec("/usr/local/bin/gpio -g write 17 0");
+						echo "Lumiere eteinte";
+				}
+				?>
+	</h2>
+	<body>
 	</head>
 </html>
 
