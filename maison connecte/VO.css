@@ -1,5 +1,5 @@
 body {
-	background-image: url("chaisechaisechaise.jpg");
+	background-image: url("chaisexchaise1.jpg");
 }
 h1 {
 	color: #F0FFFF;
@@ -26,11 +26,11 @@ h2 {
 	font-size: 30px; 
 }
 .btn0 {
-    background-color: #F0FFFF;
+    background-color: #B22222; /* Green */
     border: none;
-    color: Black;
+    color: white;
     padding: 32px 16px;
-	font-family: Arial Verdana,sans-serif;
+    text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;

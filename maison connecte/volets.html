@@ -11,8 +11,8 @@
 	<h2>
 		<meta name="viewport" content="width=device-width" />
 				<form method="get" action="index.php">
-						<input type="submit" value="on" name="Allumer" class="btn0 button">
-						<input type="submit" value="Off" name="Eteindre" class="btn0 button">
+						<input type="submit" value="I" name="on" class="btn0 button">
+						<input type="submit" value="O" name="off" class="btn0 button">
 				</form>
 				<?php
 				$setmode3 = shell_exec("/usr/local/bin/gpio -g mode 3 out");
