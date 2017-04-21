@@ -1,0 +1,39 @@
+body {
+	background-image: url("chaisexchaise1.jpg");
+}
+h1, a {
+	color: #F0FFFF;
+	text-align: center;
+	font-family: Arial Verdana,sans-serif;
+	font-size: 50px;
+}	
+
+p {
+	color: #F0FFFF;
+	text-align: center;
+	font-family: Arial Verdana,sans-serif;
+	font-size: 30px; 
+}
+
+img {
+	margin-left: 38.5%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 330px;
+    background-color: #f1f1f1;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #555;
+    color: white;
+}
