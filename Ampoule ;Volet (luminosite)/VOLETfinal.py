@@ -1,4 +1,5 @@
-#!/usr/bin/python  
+#!/usr/bin/python 
+#Ce code permet de faire fonctionner le moteur du volet (38) avec le relais et d'allumer une LED (5) a partir de la luminosite 
 import time  
 import RPi.GPIO as GPIO  
   
@@ -24,12 +25,17 @@ while True:
         GPIO.output(38, GPIO.LOW)
         if (x<500):
 		if (i <= 0):
+                        GPIO.setup(5, GPIO.OUT) 
+                        GPIO.output(5, GPIO.LOW)
                         GPIO.setup(38, GPIO.OUT)  
                         GPIO.output(38, GPIO.HIGH)
 			i = 1
 	if (x>500):
 		if (i >= 1):
+                        GPIO.setup(5, GPIO.OUT) 
+                        GPIO.output(5, GPIO.HIGH)
 			GPIO.setup(38, GPIO.OUT)  
                         GPIO.output(38, GPIO.HIGH)
 			i = 0
+	
  
