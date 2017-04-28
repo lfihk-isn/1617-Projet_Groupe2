@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<link rel="stylesheet" type="text/css" href="mcs.css">
+		<title>M.C.:Accueil</title>
+	<link rel="icon" type="image/png" href="home.png" />
+	</head>
+	<style>
+            .top {                  
+                color: white;
+                padding: 10px 10px 10px 10px;   
+                margin: 5px 5px 5px 5px; 
+	</style>
+	<body>
+		<h1>Maison connectee v.1<br>Projet ISN</h1>
+		<p>Ici vous pouvez controler directement les modules dans votre maison</p>
+		<script>
+function startTime() {
+    var today = new Date();
+    var h = today.getHours();
+    var m = today.getMinutes();
+    var s = today.getSeconds();
+    m = checkTime(m);
+    s = checkTime(s);
+    document.getElementById('txt').innerHTML =
+    h + ":" + m + ":" + s;
+    var t = setTimeout(startTime, 500);
+}
+function checkTime(i) {
+    if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+    return i;
+}
+</script>
+
+<body onload="startTime()">
+
+<p><div id="txt" class="top"></div></p>
+</body>
+		<p>
+		<a href="lumieres.php"><button type="button" class="btn0 button"><span>Lumieres</button> </a> </p> <p>
+		<a href="ventilateurs.php"><button type="button" class="btn0 button"><span>Ventilateurs</button> </a> </p> <p>
+		<a href="temp.html"><button type="button" class="btn1 button"><span>Statut</button> </a> </p>
+
+
+</html>
+

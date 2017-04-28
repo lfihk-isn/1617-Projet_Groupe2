@@ -1,0 +1,122 @@
+
+html{
+	width:100%;
+	height:100%;
+}
+body {
+	width:100%;
+	height:100%;
+	background-image: url("chaisexchaise1.jpg");
+}
+h1, a {
+	color: #F0FFFF;
+	text-align: center;
+	font-family: Arial Verdana,sans-serif;
+	font-size: 50px;
+}	
+
+p {
+	color: #F0FFFF;
+	text-align: center;
+	font-family: Arial Verdana,sans-serif;
+	font-size: 20px; 
+}
+.btn0 {
+    background-color: #B22222; /* RG1 */
+    border: none;
+    color: white;
+    padding: 32px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	border-radius: 4px;
+	text-align: center;
+	margin-left: 0%;
+	cursor:pointer;
+	transition: all 0.5s;
+	display:inline-block;
+	width:250px;
+}
+.btn1{
+    background-color: #ff3e3e; /* RG2 */
+    border: none;
+    color: white;
+    padding: 32px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	border-radius: 4px;
+	text-align: center;
+	margin-left: 0%;
+	cursor:pointer;
+	transition: all 0.5s;
+	display:inline-block;
+	width:250px;
+}
+.btn2{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 32px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	border-radius: 4px;
+	text-align: center;
+	margin-left: 0%;
+	cursor:pointer;
+	transition: all 0.5s;
+	display:inline-block;
+	width:120px;
+}
+.btn3{
+    background-color: #ff3e3e;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	border-radius: 1px;
+	margin-left: 41.5%;
+	cursor:pointer;
+	transition: all 0.5s;
+	display:inline-block;
+	width:220px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.top {                  
+	color: white;
+	text-align: center;
+	font-family: Arial Verdana,sans-serif;
+	font-size: 40px;
+	font-weight: 900;
