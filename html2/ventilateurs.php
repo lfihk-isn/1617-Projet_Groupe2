@@ -6,8 +6,8 @@
 	<link rel="icon" type="image/png" href="ventilo.png" />
 	</head>
 	<body>
-		<h1>Maison connectée v.1<br>Projet ISN</h1>
-		<p>Ici vous pouvez controler directement vos différents ventilateurs:</p>
+		<h1>Maison connect&#233;e v.1<br>Projet ISN</h1>
+		<p>Ici vous pouvez controler directement vos diff&#233;rents ventilateurs:</p>
 		<img src="ventilo.png" alt="lamp" style="width:304px;height:288px;">
 	<h2>
 		<meta name="viewport" content="width=device-width" />
@@ -28,7 +28,7 @@
 				?>
 				
 	</h2>
-	<h2><a href="index.html"><button type="button" class="btn3 button"><span>Retour a la page d'accueil</button> </a> </p></h2>
+	<h2><a href="index.html"><button type="button" class="btn3 button"><span>Retour &#224; la page d'accueil</button> </a> </p></h2>
 	
 	<body>
 	</head>

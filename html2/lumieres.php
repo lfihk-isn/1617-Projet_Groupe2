@@ -6,10 +6,10 @@
 	<link rel="icon" type="image/png" href="lamp.png" />
 	</head>
 	<body>
-		<h1>Maison connectée v.1<br>Projet ISN</h1>
-		<p>Ici vous pouvez controler directement vos différentes lumieres:</p>
+		<h1>Maison connect&#233;e v.1<br>Projet ISN</h1>
+		<p>Ici vous pouvez controler directement vos diff&#233;rentes lumi&#232;res:</p>
 		<img src="lamp.png" alt="lamp" style="width:204px;height:228px;">
-		<p>Lumiere 1:</p>
+		<p>Lumi&#232;re 1:</p>
 	<h2>
 		<meta name="viewport" content="width=device-width" />
 				<form method="get" action="lumieres.php">
@@ -28,7 +28,7 @@
 				}
 				?>
 	</h2>
-	<p>Lumiere 2:</p>
+	<p>Lumi&#232;re 2:</p>
 	<h2>
 		<meta name="viewport" content="width=device-width" />
 				<form method="get" action="lumieres.php">
@@ -51,7 +51,7 @@
 				 
 		
 	</h2>
-	<h2><a href="index.html"><button type="button" class="btn3 button"><span>Retour a la page d'accueil</button> </a> </p></h2>
+	<h2><a href="index.html"><button type="button" class="btn3 button"><span>Retour &#224; la page d'accueil</button> </a> </p></h2>
 	
 	<body>
 	</head>
